@@ -8,13 +8,13 @@ with open("requirements.txt") as f:
 
 setup(
     name="consolexyz",
-    version="0.0.1",
+    version="0.0.2",
     author="Maximiano Leite",
     author_email="macio.pb.cg@gmail.com",
     description="My short description",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/leitemaximiano/consolexyzp",
+    url="https://github.com/leitemaximiano/consolexyz",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
